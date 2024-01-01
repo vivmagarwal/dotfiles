@@ -67,6 +67,9 @@ This script will:
 ### Machine Learning Development
 - within fish shell just run `mlenv` (alias of `conda activate mlenv`)
 
+### Node development
+- within any shell, just run `fnm use 18` (whatever version of node you prefer to install & use)
+
 ## Customization
 
 - **Brewfile**: Add or remove Homebrew packages and casks as needed.
