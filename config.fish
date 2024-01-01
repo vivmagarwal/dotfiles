@@ -29,7 +29,6 @@ alias genkeys='ssh-keygen -t ed25519 -C "vivmagarwal@gmail.com" '
 alias copykeys='cat ~/.ssh/id_ed25519.pub | pbcopy'
 alias g="git"
 alias k="kubectl"
-alias tor="npx webtorrent-cli "
 alias activatepyenv="source ./.venv/bin/activate.fish"
 
 # functions
