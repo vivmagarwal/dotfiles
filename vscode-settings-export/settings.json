@@ -1,0 +1,211 @@
+{
+  "workbench.colorTheme": "Night Owl Light (No Italics)",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontWeight": "600",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "macros": {
+    "addSemicolon": [
+      "cursorEnd",
+      {
+        "command": "type",
+        "args": {
+          "text": ";"
+        }
+      }
+    ],
+    "addCurlyBrackets": [
+      "cursorEnd",
+      {
+        "command": "type",
+        "args": {
+          "text": " {"
+        }
+      }
+    ],
+    "addComma": [
+      "cursorEnd",
+      {
+        "command": "type",
+        "args": {
+          "text": ","
+        }
+      }
+    ],
+    "addEqual": [
+      "cursorEnd",
+      {
+        "command": "type",
+        "args": {
+          "text": " = "
+        }
+      }
+    ]
+  },
+  "workbench.iconTheme": "mosmmy-icons-vscode",
+  "editor.tabSize": 2,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.js*": "javascriptreact",
+    "*.json": "json"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vscode-edge-devtools.mirrorEdits": false,
+  "vscode-edge-devtools.fallbackRevision": "@22972d25db820838a94def61dc345b1a7e9c095a",
+  "cSpell.userWords": [
+    "Agarwal",
+    "Akash",
+    "Apam",
+    "Autosyncing",
+    "axelerant",
+    "Badr",
+    "Bakewell",
+    "balik",
+    "Bassam",
+    "cooby",
+    "coobyuser",
+    "datepicker",
+    "Firstname",
+    "flickity",
+    "fname",
+    "Frangipan",
+    "hubspot",
+    "Illo",
+    "knexfile",
+    "Lastname",
+    "localstorage",
+    "metadatas",
+    "middlewares",
+    "Nisha",
+    "nuller",
+    "Nums",
+    "pipedrive",
+    "Rahul",
+    "reduxjs",
+    "strapi",
+    "stylelint",
+    "todos",
+    "Typoo",
+    "Uids",
+    "visuallyhidden",
+    "vivek"
+  ],
+  "editor.minimap.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "livePreview.autoRefreshPreview": "On Changes to Saved Files",
+  "highlight-matching-tag.customEmptyElements": null,
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "underline": "blue"
+      }
+    }
+  },
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "javascriptreact": false,
+    "html": false,
+    "css": false,
+    "typescriptreact": false,
+    "typescript": false
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.fontSize": 14,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "remote.SSH.remotePlatform": {
+    "vivmagarwal.javascript-testing-class.draft---kind-cdn.csb": "linux"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "debug.console.fontSize": 13,
+  "quokka.automaticRestart": true,
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+  "markdown-image.cloudinary.apiKey": "176126571794327",
+  "markdown-image.cloudinary.apiSecret": "JbQae3nd1yiyx-LTyGmSikOpi2M",
+  "markdown-image.base.uploadMethod": "Cloudinary",
+  "markdown-image.cloudinary.cloudName": "drxuo575c",
+  "markdown-image.cloudinary.folder": "coding-problems",
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.openRepositoryInParentFolders": "never",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modifications",
+  "gitlens.statusBar.dateFormat": "",
+  "code-runner.executorMap": {
+		"javascript": "node",
+		"java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+		"c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"zig": "zig run",
+		"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"php": "php",
+		"python": "python3",
+		"perl": "perl",
+		"perl6": "perl6",
+		"ruby": "ruby",
+		"go": "go run",
+		"lua": "lua",
+		"groovy": "groovy",
+		"powershell": "powershell -ExecutionPolicy ByPass -File",
+		"bat": "cmd /c",
+		"shellscript": "bash",
+		"fsharp": "fsi",
+		"csharp": "scriptcs",
+		"vbscript": "cscript //Nologo",
+		"typescript": "ts-node",
+		"coffeescript": "coffee",
+		"scala": "scala",
+		"swift": "swift",
+		"julia": "julia",
+		"crystal": "crystal",
+		"ocaml": "ocaml",
+		"r": "Rscript",
+		"applescript": "osascript",
+		"clojure": "lein exec",
+		"haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+		"rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+		"racket": "racket",
+		"scheme": "csi -script",
+		"ahk": "autohotkey",
+		"autoit": "autoit3",
+		"dart": "dart",
+		"pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+		"d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+		"haskell": "runghc",
+		"nim": "nim compile --verbosity:0 --hints:off --run",
+		"lisp": "sbcl --script",
+		"kit": "kitc --run",
+		"v": "v run",
+		"sass": "sass --style expanded",
+		"scss": "scss --style expanded",
+		"less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+		"FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"sml": "cd $dir && sml $fileName"
+  },
+  "editor.formatOnPaste": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "redhat.telemetry.enabled": true
+}
