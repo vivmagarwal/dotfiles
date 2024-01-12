@@ -28,5 +28,18 @@ git-setup:
 		@exit 1
 	@endif
 
+make-php-executable:
+	@echo "Making PHP setup script executable..."
+	chmod +x $(cwd)/php-setup.sh
+
+php-setup: make-php-executable
+	@echo "Running PHP setup..."
+	@if [ -x "$(cwd)/php-setup.sh" ]; then
+			$(cwd)/php-setup.sh
+	@else
+			@echo "Error: PHP setup script not found or not executable."
+			@exit 1
+	@endif
+
 setup: install ml-setup git-setup
 	@echo "Full setup complete."

@@ -27,6 +27,9 @@ cask "notion"
 cask "orbstack"
 cask "raycast"
 cask "rectangle"
+cask "visual-studio-code"
+cask "vlc"
+cask "zoom"
 
 if [ ! -d "/Applications/Slack.app" ]; then
     echo "Installing Slack..."
@@ -35,9 +38,13 @@ else
     echo "Slack is already installed."
 fi
 
-cask "visual-studio-code"
-cask "vlc"
-cask "zoom"
+if ! command -v docker &> /dev/null; then
+    echo "Docker is not installed. Installing Docker..."
+    brew install --cask docker
+else
+    echo "Docker is already installed."
+fi
+
 vscode "charliermarsh.ruff"
 vscode "dbaeumer.vscode-eslint"
 vscode "eamodio.gitlens"
